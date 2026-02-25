@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minha Landing — Início</title>
+  <meta name="description" content="Landing page modular com HTML, CSS e JavaScript separados.">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <!-- Header injetado -->
+  <div id="site-header" data-partial="partials/header.html"></div>
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>O Bom de Guerra</h1>
+        <p>Tudo sobre o bom de guerra.</p>
+        <div class="hero-actions">
+          <a href="sobre.html" class="btn btn-lg">Kleiton</a>
+          <button class="btn btn-outline btn-lg" data-action="mostrar-alerta">Aperte aqui e se torne um bom de guerra também</button>
+        </div>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnDDeEYTfGD2mrLpHq3ILYZaLj1jqr-iaqqA&s" alt="">
+      </div>
+    </section>
+    <section class="features container">
+      <article>
+        <h3>Bom de Guerra I</h3>
+        <p>Suicide Ares.</p>
+      </article>
+      <article>
+        <h3>Bom de Guerra II</h3>
+        <p>Derrote a moeda de 1 real.</p>
+      </article>
+      <article>
+        <h3>Bom de Guerra III</h3>
+        <p>Desviva todo mundo que aparecer.</p>
+      </article>
+    </section>
+  </main>
+  <!-- Footer injetado -->
+  <div id="site-footer" data-partial="partials/footer.html"></div>
+</body>
+</html>

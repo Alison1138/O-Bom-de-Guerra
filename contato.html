@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minha Landing — Contato</title>
+  <meta name="description" content="Fale com a equipe da Minha Landing.">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+
+  <div id="site-header" data-partial="partials/header.html"></div>
+
+  <main class="container stack-lg">
+    <h1>Contato</h1>
+    <form class="form card" id="contato-form" novalidate>
+      <div class="field">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" required />
+      </div>
+      <div class="field">
+        <label for="email">Sua alma"email"</label>
+        <input id="email" name="email" type="email" required />
+      </div>
+      <div class="field">
+        <label for="mensagem">Sua mensagem ao Kleiton bom de guerra</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-lg">Enviar</button>
+      <p id="contato-feedback" class="muted" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <div id="site-footer" data-partial="partials/footer.html"></div>
+
+</body>
+</html>
